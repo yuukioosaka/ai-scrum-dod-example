@@ -1,14 +1,14 @@
-# Definition of Done (DoD)
+# Definition of Done (DoD) for AI-Augmented Teams
 
-A lightweight, sprint-goal-driven DoD template for modern software development teams.
+A sprint-goal-driven DoD template designed for development teams that integrate AI and static analysis into their quality assurance workflow.
 
 ## Overview
 
-This DoD enforces quality at every phase of development — from high-level design through release — while leveraging static analysis and AI-assisted review to automate baseline quality checks.
+Traditional quality gates rely heavily on manual review. This DoD shifts baseline quality checks — readability, bug detection, security, performance — to static analysis and AI-assisted review, freeing the team to focus on what matters most: **achieving sprint goals and solving real customer problems**.
 
 **Core philosophy:**
-- Baseline quality (readability, bug-free, security, performance) → automated via static analysis & AI
-- Team focus → sprint goal achievement and customer problem resolution
+- Baseline quality → automated via static analysis & AI
+- Human judgment → reserved for sprint goal achievement and business value
 
 ## Files
 
@@ -27,20 +27,20 @@ This DoD enforces quality at every phase of development — from high-level desi
 | **Low-Level Design (LLD)** | Detailed design artifact completeness |
 | **Release Readiness** | PO acceptance, deployability |
 
+## AI Review Policy
+
+Every phase requires an AI review pass. For each finding, the team must either:
+- Address the issue, or
+- Record an explicit justification for dismissal
+
+This ensures AI feedback is never silently ignored — keeping the human-AI review loop accountable and auditable.
+
 ## Usage
 
 1. Copy [`DoD.en.md`](./DoD.en.md) or [`DoD.ja.md`](./DoD.ja.md) into your repository or project wiki
 2. Attach the checklist to each sprint / pull request as appropriate
-3. Complete AI review for each phase and log responses or dismissal rationale
+3. Run AI review at each phase and log outcomes
 4. Obtain PO sign-off before marking release readiness
-
-## AI Review Policy
-
-Each phase requires an AI review pass. For every finding, the team must either:
-- Address the issue, or
-- Record an explicit justification for dismissal
-
-This ensures AI feedback is acted on deliberately, not ignored silently.
 
 ## Contributing
 
