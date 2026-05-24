@@ -1,4 +1,3 @@
-```markdown
 # Definition of Done (DoD)
 
 A lightweight, sprint-goal-driven DoD template for modern software development teams.
@@ -50,4 +49,3 @@ Suggestions and improvements welcome — open an issue or submit a PR.
 ## License
 
 [MIT](./LICENSE)
-```
